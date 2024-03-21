@@ -1,0 +1,19 @@
+.App {
+  position: relative; /* Position relative to contain the background and content */
+  overflow: hidden; 
+  background-color: transparent;
+}
+
+.p5Background {
+  position: absolute; /* Position absolutely within the App */
+  top: 100px;
+  left: 0;
+  width: 120%; /* Full width */
+  height: 120%; /* Full height */
+  z-index: -1; /* Place behind other content */
+}
+
+.content {
+  position: relative; /* Position relative to contain the content */
+  z-index: 1; /* Place above the background */
+}
